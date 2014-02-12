@@ -1,9 +1,8 @@
 //
 //  TAAAppDelegate.m
-//  CalculatorDemoInClass
+//  AppleCalculatorClone
 //
-//  Created by Tanvir Ahmed on 9/11/13.
-//  Copyright (c) 2013 Tanvir Ahmed. All rights reserved.
+//  Hunter Horsley, 2/12/2014
 //
 
 #import "TAAAppDelegate.h"
@@ -12,10 +11,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

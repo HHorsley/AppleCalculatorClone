@@ -1,10 +1,8 @@
 //
 //  TAAAppDelegate.h
-//  CalculatorDemoInClass
+//  AppleCalculatorClone
 //
-//  Created by Tanvir Ahmed on 9/11/13.
-//  Copyright (c) 2013 Tanvir Ahmed. All rights reserved.
-//
+//  Hunter Horsley, 2/12/2014
 
 #import <UIKit/UIKit.h>
 

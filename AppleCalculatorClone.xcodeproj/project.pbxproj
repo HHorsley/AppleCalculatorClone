@@ -19,6 +19,9 @@
 		81BB54B817E0EBDC00126129 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BB54A017E0EBDC00126129 /* UIKit.framework */; };
 		81BB54C017E0EBDC00126129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81BB54BE17E0EBDC00126129 /* InfoPlist.strings */; };
 		81BB54C217E0EBDC00126129 /* CalculatorDemoInClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB54C117E0EBDC00126129 /* CalculatorDemoInClassTests.m */; };
+		81BB54CC17E0EBFB00126129 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BB54CB17E0EBFB00126129 /* Storyboard.storyboard */; };
+		81BB54CF17E0EC2D00126129 /* TAACalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB54CE17E0EC2D00126129 /* TAACalculatorViewController.m */; };
+		81D73D7218A299980054CB38 /* TAACalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D73D7118A299980054CB38 /* TAACalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		81BB54BD17E0EBDC00126129 /* CalculatorDemoInClassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorDemoInClassTests-Info.plist"; sourceTree = "<group>"; };
 		81BB54BF17E0EBDC00126129 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81BB54C117E0EBDC00126129 /* CalculatorDemoInClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorDemoInClassTests.m; sourceTree = "<group>"; };
+		81BB54CB17E0EBFB00126129 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		81BB54CD17E0EC2D00126129 /* TAACalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAACalculatorViewController.h; sourceTree = "<group>"; };
+		81BB54CE17E0EC2D00126129 /* TAACalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAACalculatorViewController.m; sourceTree = "<group>"; };
+		81D73D7018A299980054CB38 /* TAACalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAACalculator.h; sourceTree = "<group>"; };
+		81D73D7118A299980054CB38 /* TAACalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAACalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				81BB54AB17E0EBDC00126129 /* TAAAppDelegate.h */,
 				81BB54AC17E0EBDC00126129 /* TAAAppDelegate.m */,
+				81BB54CB17E0EBFB00126129 /* Storyboard.storyboard */,
+				81BB54CD17E0EC2D00126129 /* TAACalculatorViewController.h */,
+				81BB54CE17E0EC2D00126129 /* TAACalculatorViewController.m */,
+				81D73D7018A299980054CB38 /* TAACalculator.h */,
+				81D73D7118A299980054CB38 /* TAACalculator.m */,
 				81BB54AE17E0EBDC00126129 /* Images.xcassets */,
 				81BB54A317E0EBDC00126129 /* Supporting Files */,
 			);
@@ -188,16 +201,16 @@
 		81BB549117E0EBDB00126129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TAA;
+				CLASSPREFIX = HH;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Tanvir Ahmed";
+				ORGANIZATIONNAME = "Hunter Horsley";
 				TargetAttributes = {
 					81BB54B317E0EBDC00126129 = {
 						TestTargetID = 81BB549817E0EBDC00126129;
 					};
 				};
 			};
-			buildConfigurationList = 81BB549417E0EBDB00126129 /* Build configuration list for PBXProject "CalculatorDemoInClass" */;
+			buildConfigurationList = 81BB549417E0EBDB00126129 /* Build configuration list for PBXProject "AppleCalculatorClone" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,6 +235,7 @@
 			files = (
 				81BB54A717E0EBDC00126129 /* InfoPlist.strings in Resources */,
 				81BB54AF17E0EBDC00126129 /* Images.xcassets in Resources */,
+				81BB54CC17E0EBFB00126129 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +256,8 @@
 			files = (
 				81BB54A917E0EBDC00126129 /* main.m in Sources */,
 				81BB54AD17E0EBDC00126129 /* TAAAppDelegate.m in Sources */,
+				81D73D7218A299980054CB38 /* TAACalculator.m in Sources */,
+				81BB54CF17E0EC2D00126129 /* TAACalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81BB549417E0EBDB00126129 /* Build configuration list for PBXProject "CalculatorDemoInClass" */ = {
+		81BB549417E0EBDB00126129 /* Build configuration list for PBXProject "AppleCalculatorClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81BB54C317E0EBDC00126129 /* Debug */,
@@ -436,6 +452,7 @@
 				81BB54C717E0EBDC00126129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81BB54C817E0EBDC00126129 /* Build configuration list for PBXNativeTarget "CalculatorDemoInClassTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +461,7 @@
 				81BB54CA17E0EBDC00126129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
