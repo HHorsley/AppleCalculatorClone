@@ -1,6 +1,6 @@
 README.txt
 
-CIS 195 - HW2 2/12/2014
+CIS 195 - 2/12/2014
 
 WHAT I DID: 
 
